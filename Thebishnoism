@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bishnoism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>The Bishnoism</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">History</a>
+        <a href="#">29 Rules</a>
+        <a href="#">Books</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>“A Living Tradition of Nature and Humanity”</h2>
+    <p>Explore the history, sacrifice, and teachings of the Bishnoi community</p>
+    <button>Explore Now</button>
+</section>
+
+<section class="about">
+    <h2>About Bishnoi Community</h2>
+    <p>
+        The Bishnoi community, founded by Guru Jambheshwar Ji,
+        follows 29 principles focused on environmental protection,
+        compassion, and simple living.
+    </p>
+</section>
+
+<section class="cards">
+    <div class="card">
+        <h3>🌳 History</h3>
+        <p>Discover the legacy and sacrifice of 363 martyrs.</p>
+    </div>
+    <div class="card">
+        <h3>📜 29 Rules</h3>
+        <p>Learn the core principles of Bishnoi life.</p>
+    </div>
+    <div class="card">
+        <h3>📚 Books</h3>
+        <p>Read and buy books about Bishnoism.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 TheBishnoism.com | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5dc;
+}
+
+header {
+    background: #2e7d32;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('desert.jpg') no-repeat center/cover;
+    color: white;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+}
+
+.about {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
